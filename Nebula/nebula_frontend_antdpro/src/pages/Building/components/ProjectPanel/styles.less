@@ -1,0 +1,56 @@
+.projPanel {
+  :global(.ant-collapse) {
+    height: 500px;
+    margin-right: 12px;
+    overflow-y: auto;
+    background-color: #fff;
+  }
+  :global(.ant-collapse-content-box) {
+    padding: 0;
+    overflow-y: auto;
+    :global(.ant-collapse) {
+      height: auto;
+      margin: 0;
+    }
+    :global(.ant-collapse-header) {
+      padding: 12px 40px 12px 80px;
+    }
+    :global(.ant-collapse-item-active) {
+      background-color: #f6f6f6;
+    }
+  }
+}
+
+.projectImg {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  vertical-align: top;
+}
+
+.projInfo {
+  display: inline-block;
+  max-width: 500px;
+  margin-left: 20px;
+  :global(h4.ant-typography) {
+    margin: 0;
+  }
+}
+
+.floorInfoBlock {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+  padding-left: 80px;
+}
+
+.floorInfoLine {
+  display: flex;
+  justify-content: space-between;
+  width: 225px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.floorMap {
+  height: 500px;
+}
